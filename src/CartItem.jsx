@@ -16,8 +16,7 @@ const CartItem = ({ onContinueShopping }) => {
     }, 0).toFixed(2);
   };
 
-  const handleContinueShopping = (e) => {
-    e.preventDefault();
+  const handleContinueShopping = () => {
     setShowCheckout(false);
     onContinueShopping();
   };
